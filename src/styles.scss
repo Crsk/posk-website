@@ -1,0 +1,14 @@
+$font-stack:    Helvetica, sans-serif;
+$amarillo:    #e88f1b;
+$blanco:      #f9f9f9;
+$fondo:       #f4f6f7;
+
+.bg-amarillo {
+    background-color: $amarillo;
+    color: $blanco;
+}
+
+.fondo {
+    background-color: $fondo;
+    height: 100vh;
+}

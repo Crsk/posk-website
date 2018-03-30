@@ -1,0 +1,46 @@
+$amarillo:    #e88f1b;
+$blanco:      #f9f9f9;
+$negro:       #161616;
+
+a {
+    background-color: none;
+    color: $negro;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.asd {
+    background-color: none;
+    color: $negro;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: $blanco;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.navbar {
+    ul {
+        display: flex;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+}
+
+.navbar ul {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    color: green;
+}

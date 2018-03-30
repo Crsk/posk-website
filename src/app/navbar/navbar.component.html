@@ -1,0 +1,16 @@
+<div id="navbar">
+  <a routerLink="/inicio" [ngx-scroll-to]="'#inicio'">Logo</a>
+  <a routerLink="/inicio" [ngx-scroll-to]="'#videos'" class="float-right">Contacto</a>
+  <div class="btn-group float-right" dropdown>
+    <a dropdownToggle class="asd">Como funciona<span class="caret"></span>
+    </a>
+    <ul *dropdownMenu class="dropdown-menu" role="menu">
+      <li><a class="dropdown-item" routerLink="/videos">Login</a></li>
+      <li><a class="dropdown-item" routerLink="/videos">Venta</a></li>
+    </ul>
+  </div>
+  <a routerLink="/inicio" class="float-right" [ngx-scroll-to]="'#inicio'">Inicio</a>
+</div>
+
+<app-inicio id="inicio"></app-inicio>
+<app-videos id="videos"></app-videos>
