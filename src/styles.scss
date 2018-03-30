@@ -12,3 +12,20 @@ $fondo:       #f4f6f7;
     background-color: $fondo;
     height: 100vh;
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+    background: $blanco; 
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius: 6px;
+}   
