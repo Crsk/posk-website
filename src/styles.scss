@@ -3,6 +3,7 @@ $amarillo:    #e88f1b;
 $blanco:      #f9f9f9;
 $fondo:       #f4f6f7;
 
+
 .bg-amarillo {
     background-color: $amarillo;
     color: $blanco;
@@ -29,3 +30,15 @@ $fondo:       #f4f6f7;
     background: #555; 
     border-radius: 6px;
 }   
+
+/*
+#menu {
+    position: absolute;
+    left: 63%;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100vh;
+}
+*/

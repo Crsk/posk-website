@@ -1,18 +1,18 @@
 .background {
     height: 100vh;
-    background-color: #fd9644;
     color: #ecf0f1;
     padding-top: 60px;
-
+    
     display: grid;    
-    grid-template-columns: auto 80px 100px 80px auto;
+    grid-template-columns: auto 100px 100px auto;
     grid-template-rows: 100px auto 100px;
-
+    
     grid-gap: 10px;
+    background-color: #4b7bec;
     padding: 10px;
-    grid-template-areas: 'header header header header header'
-                         'body body body body body'
-                         'footer-izquierda footer-centro-uno footer-centro-dos footer-centro-tres footer-derecha'
+    grid-template-areas: 'header header header header'
+                         'body body body body'
+                         'footer-izquierda footer-centro-uno footer-centro-dos footer-derecha'
 }
 
 .header { grid-area: header; }
@@ -20,7 +20,6 @@
 .footer-izquierda { grid-area: footer-izquierda; }
 .footer-centro-uno { grid-area: footer-centro-uno; }
 .footer-centro-dos { grid-area: footer-centro-dos; }
-.footer-centro-tres { grid-area: footer-centro-tres; }
 .footer-derecha { grid-area: footer-derecha; }
 
 .center {
@@ -32,9 +31,4 @@
 .btn-bajar {
     cursor: pointer;
     width: 40px;
-}
-
-#grad1 {
-    background: #fd9644;
-    background: linear-gradient(#fd9644, #e27616);
 }

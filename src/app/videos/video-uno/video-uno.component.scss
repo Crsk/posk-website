@@ -1,0 +1,31 @@
+iframe {
+    width: 620px;
+    height: 330px;
+}
+@media (min-width: 10px) {
+    iframe {
+        width: 240px;
+        height: 130px;
+    }
+}
+
+@media (min-width: 544px) {
+    iframe {
+        width: 400px;
+        height: 210px;
+    }
+}
+
+@media (min-width: 768px) {
+    iframe {
+        width: 500px;
+        height: 266px;
+    }
+}
+
+@media (min-width: 868px) {
+    iframe {
+        width: 600px;
+        height: 320px;
+    }
+}

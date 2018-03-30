@@ -1,24 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
-import { VideosComponent } from './videos/videos.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { VideoUnoComponent } from './videos/video-uno/video-uno.component';
+import { VideoDosComponent } from './videos/video-dos/video-dos.component';
+import { VideoTresComponent } from './videos/video-tres/video-tres.component';
 
 const routes: Routes = [
-  /*
-  { path: 'inicio', component: InicioComponent },
-  { path: 'contacto', component: ContactoComponent },
-  {
-    path: 'videos',
-    component: VideosComponent,
-    data: { title: 'Videos' }
-  },
-  { path: '',
-    redirectTo: '/inicio',
-    pathMatch: 'full'
-  },
-  { path: '**', component: InicioComponent }
-  */
+  
+  { path: 'video-uno', component: VideoUnoComponent },
+  { path: 'video-dos', component: VideoDosComponent },
+  { path: 'video-tres', component: VideoTresComponent }  
 ];
 
 @NgModule({

@@ -1,4 +1,29 @@
 <div class="background">
+  <div class="header">
     <div class="container">
+      <div class="row center">
+        <div class="col-sm-12">¿Como funciona?</div>
+      </div>
     </div>
+  </div>
+  <div class="body">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-2">
+          <div class="center">
+            <a routerLink="/video-dos" routerLinkActive="active">Venta Restaurant</a>
+            <a routerLink="/video-uno" routerLinkActive="active">Venta Botillería</a>
+            <a routerLink="/video-tres" routerLinkActive="active">Pedido Garzón</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-10">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-izquierda center"></div>
+  <div class="footer-centro-uno center" [ngx-scroll-to]="'#cuatro'"><img class="btn-bajar" [src]="'/assets/up-arrow.png'"></div>
+  <div class="footer-centro-dos center" [ngx-scroll-to]="'#contacto'"><img class="btn-bajar" [src]="'/assets/down-arrow.png'"></div>
+  <div class="footer-derecha center"></div>
 </div>
