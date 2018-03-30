@@ -1,17 +1,17 @@
 <!-- test -->
-<div id="navbar">
-  <a routerLink="/inicio" [ngx-scroll-to]="'#inicio'">Juana banana</a>
-  <a routerLink="/inicio" [ngx-scroll-to]="'#videos'" class="float-right">Contacto</a>
+<div class="navbar">
+  <a [ngx-scroll-to]="'#inicio'">Logo</a>
+  <a [ngx-scroll-to]="'#contacto'" class="float-right">Contacto</a>
   <div class="btn-group float-right" dropdown>
-    <a dropdownToggle class="asd">Como funciona?<span class="caret"></span>
+    <a dropdownToggle class="dropdown">Como funciona?<span class="caret"></span>
     </a>
     <ul *dropdownMenu class="dropdown-menu" role="menu">
       <li><a class="dropdown-item" routerLink="/videos">Login</a></li>
-      <li><a class="dropdown-item" routerLink="/videos">Venta</a></li>
+      <li><a class="dropdown-item">Venta</a></li>
     </ul>
   </div>
-  <a routerLink="/inicio" class="float-right" [ngx-scroll-to]="'#inicio'">Inicio</a>
+  <a class="float-right" [ngx-scroll-to]="'#inicio'">Inicio</a>
 </div>
 
 <app-inicio id="inicio"></app-inicio>
-<app-videos id="videos"></app-videos>
+<app-contacto id="contacto"></app-contacto>

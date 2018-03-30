@@ -13,13 +13,15 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { AlertModule } from 'ngx-bootstrap';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     VideosComponent,
-    NavbarComponent
+    NavbarComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

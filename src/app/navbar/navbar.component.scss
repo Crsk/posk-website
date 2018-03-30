@@ -11,7 +11,7 @@ a {
     display: inline-block;
 }
 
-.asd {
+.dropdown {
     background-color: none;
     color: $negro;
     padding: 14px 25px;
@@ -29,18 +29,6 @@ a:hover {
     position: fixed;
 }
 
-.navbar {
-    ul {
-        display: flex;
-        align-items: flex-end;
-        align-content: flex-end;
-    }
-}
-
-.navbar ul {
-    text-decoration: none;
-    display: flex;
-    align-items: flex-end;
-    align-content: flex-end;
-    color: green;
+.navbar a {
+    cursor: pointer;
 }
