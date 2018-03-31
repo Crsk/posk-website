@@ -1,6 +1,5 @@
 .background {
     height: 100vh;
-    background-color: #0fb9b1;
     color: #ecf0f1;
     padding-top: 60px;
 
@@ -34,3 +33,6 @@
     width: 40px;
 }
 
+#grad1 {
+    background: linear-gradient(#2196F3, #1077c9);
+}

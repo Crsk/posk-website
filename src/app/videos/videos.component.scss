@@ -36,17 +36,21 @@
 
 
 a:link, a:visited {
-    background-color: #1db766;
+    background-color: #24c170;
     color: white;
     padding: 6px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px;
-    min-width: 120px;
+    min-width: 140px;
 }
 
 
 a:hover, a:active {
     background-color: #1aaf61;
+}
+
+#grad1 {
+    background: linear-gradient(#20bf6b, #16a359);
 }
