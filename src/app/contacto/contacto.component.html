@@ -29,11 +29,11 @@
             </div>
             <div *ngIf="isAdmin">
                 <ul>
-                    <li class="text" *ngFor="let _mensaje of mensajes | async">
+                    <li class="text" *ngFor="let _mensaje of mensajes | async" style="color: #232323;">
                         Mensaje: {{_mensaje.mensaje}}&nbsp;&nbsp;&nbsp;
-                        <i class="fa fa-times" style="color: #ce2512; cursor: pointer;" (click)="borrarMensaje(_mensaje.id)"></i>
-                        &nbsp;&nbsp;&nbsp;
-                        <i class="fa fa-eye" style="color: #037cb5; cursor: pointer;" (click)="openModal(template)" (click)="escogerMensaje(_mensaje)"></i>
+                        <i class="fa fa-trash" style="color: #232323; cursor: pointer;" (click)="borrarMensaje(_mensaje.id)"></i>
+                        &nbsp;&nbsp;
+                        <i class="fa fa-eye" style="color: #232323; cursor: pointer;" (click)="openModal(template)" (click)="escogerMensaje(_mensaje)"></i>
                     </li>
                 </ul>
             </div>

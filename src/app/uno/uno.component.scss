@@ -16,17 +16,11 @@
 }
 
 .header { grid-area: header; }
-.body { grid-area: body;}
+.body { grid-area: body; }
 .footer-izquierda { grid-area: footer-izquierda; }
 .footer-centro-uno { grid-area: footer-centro-uno; }
 .footer-centro-dos { grid-area: footer-centro-dos; }
 .footer-derecha { grid-area: footer-derecha; }
-
-.center {
-    text-align: center;
-    padding: 20px 0;
-    margin: auto;
-}
 
 .btn-bajar {
     cursor: pointer;
@@ -35,8 +29,4 @@
 
 #grad1 {
     background: linear-gradient(#2196F3, #1077c9);
-}
-
-.img {
-    width: 400px;
 }

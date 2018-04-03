@@ -31,14 +31,22 @@ $fondo:       #f4f6f7;
     border-radius: 6px;
 }   
 
-/*
-#menu {
-    position: absolute;
-    left: 63%;
-    bottom: 50px;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    cursor: pointer;
-    width: 100vh;
+.title {
+    font-weight: 500;
+    font-size: 24px;
 }
-*/
+
+.vertical-center {
+    padding: 20px 0;
+    margin: auto;
+}
+
+.img {
+    width: 300px;
+}
+
+.center {
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+}
