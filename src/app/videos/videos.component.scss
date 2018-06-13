@@ -54,3 +54,32 @@ a:hover, a:active {
 #grad1 {
     background: linear-gradient(#20bf6b, #16a359);
 }
+
+
+@media (min-width: 10px) {
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 544px) {
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 868px) {
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}

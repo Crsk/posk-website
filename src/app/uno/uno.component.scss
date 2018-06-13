@@ -30,3 +30,55 @@
 #grad1 {
     background: linear-gradient(#2196F3, #1077c9);
 }
+
+
+@media (min-width: 10px) {
+    .img {
+        width: 160px;
+    }
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .desc {
+        text-align: center;
+    }
+}
+
+@media (min-width: 544px) {
+    .img {
+        width: 170px;       
+    }
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .desc {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .img {
+        width: 200px;
+        margin-left: -100px;        
+    }
+    .title {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .desc {
+        text-align: right;
+    }
+}
+
+@media (min-width: 868px) {
+    .img {
+        width: 300px;
+        margin-left: -130px;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 24px;
+    }
+}

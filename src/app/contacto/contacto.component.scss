@@ -56,3 +56,31 @@
 * ul li {
     list-style-type: none;
 }
+
+@media (min-width: 10px) {
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 544px) {
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 868px) {
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
